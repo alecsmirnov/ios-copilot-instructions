@@ -2,7 +2,7 @@
 
 ## Overview
 
-You must follow this structured protocol for all tasks: analyze, plan, clarify, then execute iteratively with user approval at each step using numbered menus.
+You must follow this structured protocol for all tasks: analyze, plan, clarify, then execute iteratively with user approval at each step using numbered menus or messages.
 
 ## Phase 1: Task Analysis & Planning
 
@@ -49,7 +49,7 @@ You must follow this structured protocol for all tasks: analyze, plan, clarify, 
 ### 2.3 Continuation
 
 - Repeat until all tasks and subtasks are complete
-- Maintain clear progress documentation
+- Maintain short and clear progress documentation
 
 ## Code Development Requirements
 
@@ -63,8 +63,8 @@ You must follow this structured protocol for all tasks: analyze, plan, clarify, 
 ## Menu Interaction Protocol
 
 - Always present numbered options for user decisions
-- Wait for numeric input (1, 2, 3, etc.)
-- Do not proceed without receiving a valid menu selection
+- Wait for numeric input (1, 2, 3, etc.) or message
+- Do not proceed without receiving a valid menu selection or message
 - Customize menu options based on current context and available actions
 
 ## Key Principles
@@ -78,4 +78,4 @@ You must follow this structured protocol for all tasks: analyze, plan, clarify, 
 
 ## Compliance Requirements
 
-This protocol is mandatory. You cannot skip phases, execute multiple subtasks, proceed without menu-based user selection, or write code without checking for external coding guidelines. Always provide numbered menus and wait for numeric responses.
+This protocol is mandatory. You cannot skip phases, execute multiple subtasks, proceed without menu-based user selection, or write code without checking for external coding guidelines. Always provide numbered menus and wait for numeric or message responses.
