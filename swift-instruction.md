@@ -237,18 +237,18 @@ if let error { return error }
 ```swift
 // GOOD
 if let name = repository.getName(),
-   let email = repository.getEmail {
+   let email = repository.getEmail() {
     ...
 }
 
 // BAD
 if let name = repository.getName(),
-    let email = repository.getEmail {
+    let email = repository.getEmail() {
     ...
 }
 
 // EXCEPTION: IF IT FITS THE COLUMN LIMIT
-if let name = repository.getName(), let email = repository.getEmail {
+if let name = repository.getName(), let email = repository.getEmail() {
     ...
 }
 ```
